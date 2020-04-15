@@ -1,0 +1,6 @@
+2020-04-15 12:27:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BANK_DETAILS" not found; SQL statement:
+insert into Bank_Details values (4,'Bank Of India' ,'Shop No. 1, 18/60, Bhagat Singh Park, Block 18, Geeta Colony, New Delhi' ) [42102-200]
+2020-04-15 12:34:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BANK_DETAILS" not found; SQL statement:
+insert into Bank_Details values (4,'Bank Of India' ,'Shop No. 1, 18/60, Bhagat Singh Park, Block 18, Geeta Colony, New Delhi' ) [42102-200]

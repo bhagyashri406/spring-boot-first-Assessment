@@ -1,0 +1,33 @@
+<html  xmlns:th="http://www.thymeleaf.org">
+<head>
+ <h1> Employee Details Save</h1>   
+  <style>
+    td, th {
+    	padding: 5px;
+    }
+  	table, th, td {
+  		border: 1px solid black;
+  		border-collapse: collapse;
+	}
+</style>
+
+</head>
+<table>  
+<tr>    
+<td><h4>Employee ID: </h4></td>    
+<td><h4 th:text="${employee.id}"></h4></td>    
+</tr>   
+<tr>    
+<td><h4>Employee Name: </h4></td>    
+<td><h4 th:text="${employee.name}"></h4></td>    
+</tr>    
+<tr>    
+<td><h4>Email ID: </h4></td>    
+<td><h4 th:text="${employee.email}"></h4></td>    
+</tr>  
+<tr>    
+<td><h4>location: </h4></td>    
+<td><h4 th:text="${employee.location}"></h4></td>    
+</tr>   
+</table>    
+</html>  

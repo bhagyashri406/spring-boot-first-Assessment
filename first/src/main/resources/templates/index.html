@@ -1,0 +1,41 @@
+<html  xmlns:th="http://www.thymeleaf.org">  
+<head>    
+<title>Index Page</title>
+<h1>Employee details </h1>   
+ <style>
+    td, th {
+    	padding: 5px;
+    }
+  	table, th, td {
+  		border: 1px solid black;
+  		border-collapse: collapse;
+	}
+</style> 
+</head>    
+<body>    
+<form action="save" method="post">    
+<table>    
+<tr>    
+<td><label for="employee-id">Employee ID</label></td>    
+<td><input type="number" name="id"></input></td>    
+ </tr>  
+ <tr>    
+<td><label for="employee-name">Employee Name</label></td>    
+<td><input type="text" name="name"></input></td>    
+ </tr>    
+<tr>    
+<td><label for="email">Employee Email</label></td>    
+<td><input type="email" name="email"></input></td>    
+</tr> 
+ <tr>    
+<td><label for="user-name">Location</label></td>    
+<td><input type="text" name="location"></input></td>    
+ </tr>    
+<tr>    
+<td></td>    
+<td><input type="submit" value="Submit"></input></td>    
+</tr>    
+</table>    
+</form>    
+</body>    
+</html>  

@@ -31,7 +31,10 @@ insert into Bank_Branch_Details values (1013,3, 'BANGALORE','BranchName12')
 insert into Bank_Branch_Details values (1014,3, 'BANGALORE','BranchName13')
 insert into Bank_Branch_Details values (1015,3, 'BANGALORE','BranchName14')
 insert into Bank_Branch_Details values (1016,3, 'BANGALORE','BranchName15')
-
+insert into Bank_Branch_Details values (1017,3, 'BANGALORE','BranchName16')
+insert into Bank_Branch_Details values (1018,3, 'BANGALORE','BranchName17')
+insert into Bank_Branch_Details values (1019,3, 'BANGALORE','BranchName18')
+insert into Bank_Branch_Details values (1020,3, 'BANGALORE','BranchName19')
 
 
 insert into employee values (2, 'sachain@gmail.com','address','Sachin')
